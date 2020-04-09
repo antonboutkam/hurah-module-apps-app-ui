@@ -1,0 +1,39 @@
+{
+    "name": "hurah/ui-designer",
+    "description": "This package contains the UI designer for the Hurah system",
+    "type": "admin-module",
+    "authors": [
+        {
+            "name": "Anton Boutkam",
+            "email": "anton@nui-boutkam.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "artf/grapesjs" : "0.16.4",
+        "oomphinc/composer-installers-extender": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "artf/grapesjs",
+                "version": "0.16.4",
+                "type": "admin-asset",
+                "source": {
+                    "type": "git",
+                    "reference": "master",
+                    "url": "git@github.com:artf/grapesjs.git"
+                }
+            }
+        }
+    ],
+    "extra": {
+        "installer-types": ["admin-asset"],
+        "installer-paths": {
+            "assets/{$name}": [
+                "type:admin-asset"
+            ]
+        }
+    }
+}
