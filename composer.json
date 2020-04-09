@@ -2,7 +2,7 @@
     "name": "hurah/app-ui-designer",
     "description": "This package contains the UI designer module for the Hurah system",
     "type": "admin-module",
-    "version": "0.0.1",
+    "version": "dev-master",
     "authors": [
         {
             "name": "Anton Boutkam",
