@@ -1,0 +1,33 @@
+<header id="topbar" class="ph10">
+    {#
+    <div class="topbar-left">
+        <ul class="nav nav-list nav-list-topbar pull-left">
+            <li class="active">
+
+                <a href="#">{{ app.getName() }}</a>
+            </li>
+        </ul>
+        <div class="btn-group pull-left">
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                {{ ui_component.getLabel() }}
+                <span class="caret ml5"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                {% for sibling in siblings %}
+                <li>
+                    <a href="/apps/app/designer/canvas?ui_component_id={{ sibling.getId() }}">{{ sibling.getLabel() }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="topbar-right hidden-xs hidden-sm">
+        <a href="#" class="btn btn-default btn-sm light fw600 ml10 mt5">
+            <span class="fa fa-anchor pr5"></span> Button Link </a>
+        <a href="#" class="btn btn-default btn-sm light fw600 ml10 mt5">
+            <span class="fa fa-bullseye pr5"></span> Button Link </a>
+        <a href="#" class="btn btn-default btn-sm light fw600 ml10 mt5">
+            <span class="fa fa-external-link pr5"></span> Button Link </a>
+    </div>
+    #}
+</header>

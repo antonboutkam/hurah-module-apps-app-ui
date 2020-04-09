@@ -1,5 +1,5 @@
 {
-    "name": "hurah/ui-designer",
+    "name": "Apps/App/Ui",
     "description": "This package contains the UI designer for the Hurah system",
     "type": "admin-module",
     "authors": [
