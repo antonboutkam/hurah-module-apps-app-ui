@@ -11,8 +11,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "artf/grapesjs" : "0.16.4",
-        "oomphinc/composer-installers-extender": "dev-master"
+        "artf/grapesjs" : "0.16.4"
     },
     "repositories": [
         {
@@ -30,12 +29,6 @@
         }
     ],
     "extra": {
-        "installer-name" : "Apps/App/Ui",
-        "installer-types": ["admin-asset"],
-        "installer-paths": {
-            "assets/{$name}": [
-                "type:admin-asset"
-            ]
-        }
+        "installer-name" : "Apps/App/Ui"
     }
 }
