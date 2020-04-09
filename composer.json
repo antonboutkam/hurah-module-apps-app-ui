@@ -1,6 +1,6 @@
 {
-    "name": "Apps/App/Ui",
-    "description": "This package contains the UI designer for the Hurah system",
+    "name": "hurah/app-ui-designer",
+    "description": "This package contains the UI designer module for the Hurah system",
     "type": "admin-module",
     "authors": [
         {
@@ -29,6 +29,7 @@
         }
     ],
     "extra": {
+        "module-name" : "Apps/App/Ui",
         "installer-types": ["admin-asset"],
         "installer-paths": {
             "assets/{$name}": [
