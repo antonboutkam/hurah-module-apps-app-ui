@@ -30,7 +30,7 @@
         }
     ],
     "extra": {
-        "module-name" : "Apps/App/Ui",
+        "installer-name" : "Apps/App/Ui",
         "installer-types": ["admin-asset"],
         "installer-paths": {
             "assets/{$name}": [
